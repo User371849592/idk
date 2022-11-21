@@ -1,23 +1,234 @@
-# Compiled class file
-*.class
+body {background: url("https://i.imgur.com/9cgxZZK.gif") fixed;background-repeat: no-repeat;background-size: cover;color: #000;}
 
-# Log file
-*.log
+.welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a {
+color: #000;
+}
 
-# BlueJ files
-*.ctxt
+h1, h3 , .sidebar h3 {
+font-family: Arial !important;
+text-align: left;
+color: #000;
+border-bottom: 1px solid #000;
+}
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+/* BUTTONS */
+input[type="button"], input[type="submit"], input[type="submit"]:hover {
+background: #5BC3CC;
+color: #000;
+border: 1px solid #000;
+text-shadow: none;
+font-weight: bold;
+font-size: 14px;
+border-radius: 5px;
+ font-family: Arial;
+}
+ 
+ 
+/* LINKS */
+ 
+.table a:link, .table a:active, .table a:visited, .right a:link, .right a:active, .right a:visited, .bottom a:link, .bottom a:active, .bottom a:visited, .topbar a:link, .topbar a:visited, .topbar a:active, a:link, a:visited, a:active {
+color: #000000;
+ font-family: Arial;
+}
+ 
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+border-bottom: 1px solid #000000;
+color: #000000;
+ font-family: Arial;
+}
+ 
+/* TOPBAR */
+ 
+.topbar {
+background: #5BC3CC;
+border: 1px solid #000;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+ font-family: Arial;
+}
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+.badge {
+background: #5BC3CC;
+border: 1px solid #000;
+ font-family: Arial;
+}
+ 
+/* NAVBAR */
+ 
+.main {
+background: rgba(91, 195, 204, 0.21);
+border: 1px solid #000;
+box-shadow: none;
+ font-family: Arial;
+}
+ 
+.navbar {
+background: #5BC3CC;
+border-bottom: 1px solid #000;
+color: #000;
+ font-family: Arial;
+}
+ 
+.navbar-default .navbar-nav > li > a {
+color: #000;
+ font-family: Arial;
+}
+ 
+.navbar-default .navbar-nav li a:hover {
+color: #000;
+background: #4AA2D5;
+border-left: 1px solid #000;
+border-right: 1px solid #000;
+ font-family: 'Special Elite', Arial ,cursive;
+} 
+ 
+ 
+ 
+/* SIDEBAR */
+ 
+.sidebar {
+background: rgba(91, 195, 204, 0.21);
+border: 0px solid #000;
+border-bottom: 1px solid #000;
+border-left: 1px solid #000;
+color: #000;
+ font-family: Arial;
+}
+ 
+.col-md-9.col-xs-12 {
+background: url('https://wallpapercave.com/wp/wp7420817.jpg') center center fixed !important;
+border: 2px solid #fffff !important;}
+ 
+.progress-bar {
+background: #4AA2D5;
+ font-family: Arial;
+}
+ 
+.progress {
+background: #C3F7EF;
+border: 1px solid #000;
+ font-family: 'Special Elite', Arial ,cursive;
+}
+/* text on progress bars */
+.progress div {color: #000;}
+ 
+/* CHAT */
+ 
+.chat_light, .chat_dark {
+background: #5BC3CC;
+font-size: 11px;
+color: #000;
+ font-family: Arial;
+}
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+.chatContainer {
+border: 1px solid #000;
+ font-family: Arial;
+}
+ 
+.userstolen {
+background: none;
+ font-family: Arial;
+}
+
+.alert-danger {
+color: #000000;
+background: #4AA2D5;
+border: 1px solid #000;
+ font-family: Arial;
+}
+
+.alert-success {
+color: #000;
+background: #4AA2D5;
+border: 1px solid #000;
+ font-family: Arial;
+}
+
+.breadcrumb {
+background:  #5BC3CC;
+font-size: 13px;
+border: 1px solid #000;
+ font-family: Arial;
+}
+ 
+.breadcrumb>.active {
+color: #000;
+ font-family: Arial;
+}
+ 
+h1 small, h2, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+font-family: "Carter One";
+color: #000;
+ font-family: Arial;
+}
+ 
+.col-md-9 {
+background: none;
+border: 0px solid #000;
+ font-family: Arial;
+}
+ 
+/* TABLES */
+ 
+#lion_image {
+border-radius: 25px;
+overflow: hidden;
+border: 1px solid #000;
+ font-family: Arial;
+}
+ 
+.table, .item {
+border: 1px solid #000;
+background: #5BC3CC;
+border-collapse: separate;
+ font-family: Arial;
+}
+
+.table .right, .table .right_odd {
+background: none;
+border: 0px solid #000;
+ font-family: Arial;
+}
+
+/* top and bottom of boxes */
+div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top, .table th, .item-header, .item-footer {
+border: 0px solid #000;
+background: #4AA2D5;
+color: #000;
+ font-family: Arial;
+}
+
+/* cave and mound boxes */
+.cave-grid, div .left, .mound-grid {
+border: 1px solid #000;
+background: #4AA2D5;
+color: #000;
+ font-family: Arial;
+}
+
+/* left part inside box */
+.table .left {
+border: 1px solid #000;
+background: #4AA2D5;
+color: #000;
+ font-family: Arial;
+}
+
+/* right part inside box */
+.inner-table .right {
+background: #C3F7EF;
+border: 1px solid #000;
+border-left: none;
+ font-family: Arial;
+}
+
+/* logo */
+body > div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
+content: url('https://i.imgur.com/mPbLQfh.png')
+
+ 
+ /* color 1: #5BC3CC (middle blue)
+ color 2: #4AA2D5 (dark blue)
+ color 3: #C3F7EF (light blue)*/
+ 
